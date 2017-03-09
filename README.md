@@ -45,5 +45,3 @@ etc
 1. Move these assets to `assets/png/`.
 2. Run `create_png.sh`
 3. Done
-
-Beware that the script removes and recreates the 4 drawable-(xxx)hdpi folders, so everything needs to be in sync with `assets/png/`.

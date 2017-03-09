@@ -21,7 +21,8 @@ project/
 
 The designer exports png assets from sketch in 4 sizes:
 
-* x1 (drawable-hdpi)
+* x1 (drawable-mdpi)
+* x1,5 (drawable-hdpi)
 * x2 (drawable-xhdpi)
 * x3 (drawable-xxhdpi)
 * x4 (drawable-xxxhdpi)
@@ -30,10 +31,12 @@ The assets will be in a unique folder with flat hierarchy. The png files are nam
 
 ```
 my_image_1@1x.png
+my_image_1@1,5x.png
 my_image_1@2x.png
 my_image_1@3x.png
 my_image_1@4x.png
 my_image_2@1x.png
+my_image_2@1,5x.png
 my_image_2@2x.png
 my_image_2@3x.png
 my_image_2@4x.png
